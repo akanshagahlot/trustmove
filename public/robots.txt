@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.trustmove.com
+
+# Sitemaps
+Sitemap: https://www.trustmove.com/sitemap.xml

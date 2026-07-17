@@ -1,0 +1,71 @@
+.cardsSection {
+  padding: 60px 20px;
+  background-color: #f8f9fa; /* Light grey backdrop to cleanly offset content margins */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.infoCard {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 4px 15px rgba(15, 44, 89, 0.02);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.infoCard:hover {
+  transform: translateY(-5px);
+  border-color: #FA6400; /* Accents border cleanly to logo orange on hover */
+}
+
+.iconWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: rgba(250, 100, 0, 0.08); /* Transparent orange theme wrap */
+  color: #FA6400; /* TrustMove Logo Orange */
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.infoCard:hover .iconWrapper {
+  background-color: #FA6400; /* Inverts color layout cleanly on component focus */
+  color: #ffffff;
+}
+
+.cardTitle {
+  color: #0F2C59; /* TrustMove Logo Deep Blue */
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.cardDetails {
+  color: #555555;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Tablet / Mobile View adjustments */
+@media (max-width: 768px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

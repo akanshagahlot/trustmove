@@ -1,0 +1,219 @@
+{
+  "mode": "dry-run",
+  "totals": {
+    "imagesFound": 23,
+    "converted": 23,
+    "conversionFailures": 0,
+    "codeFilesScanned": 78,
+    "filesUpdated": 17,
+    "originalsDeleted": 0,
+    "imagesResized": 0,
+    "avgSizeReductionPercent": 94.77
+  },
+  "updatedFiles": [
+    "image-optimization-report-dry.json",
+    "src/app/services/home-shifting/page.jsx",
+    "src/app/services/insurance-service/page.jsx",
+    "src/app/services/loading-unloading/page.jsx",
+    "src/app/services/office-shifting/page.jsx",
+    "src/app/services/packing-unpacking/page.jsx",
+    "src/app/services/warehouse-service/page.jsx",
+    "src/component/aboutstory.jsx",
+    "src/component/blogcard.jsx",
+    "src/component/blogdetailcontent.jsx",
+    "src/component/footer.jsx",
+    "src/component/galleryphotos.jsx",
+    "src/component/hero.jsx",
+    "src/component/navbar.jsx",
+    "src/component/services.jsx",
+    "src/component/team.jsx",
+    "src/component/whychooseus.jsx"
+  ],
+  "skipped": [],
+  "sampleConversions": [
+    {
+      "from": "public/android-chrome-512x512.png",
+      "to": "public/android-chrome-512x512.webp",
+      "beforeKB": 71.67,
+      "afterKB": 18.52,
+      "quality": 90,
+      "scale": 1
+    },
+    {
+      "from": "public/apple-touch-icon.png",
+      "to": "public/apple-touch-icon.webp",
+      "beforeKB": 12.84,
+      "afterKB": 4.75,
+      "quality": 90,
+      "scale": 1
+    },
+    {
+      "from": "public/favicon-16x16.png",
+      "to": "public/favicon-16x16.webp",
+      "beforeKB": 0.45,
+      "afterKB": 0.36,
+      "quality": 90,
+      "scale": 1
+    },
+    {
+      "from": "public/favicon-32x32.png",
+      "to": "public/favicon-32x32.webp",
+      "beforeKB": 1,
+      "afterKB": 0.73,
+      "quality": 90,
+      "scale": 1
+    },
+    {
+      "from": "public/images/blog.png",
+      "to": "public/images/blog.webp",
+      "beforeKB": 2409.95,
+      "afterKB": 108.02,
+      "quality": 75,
+      "scale": 1
+    },
+    {
+      "from": "public/images/footer.png",
+      "to": "public/images/footer.webp",
+      "beforeKB": 1358.93,
+      "afterKB": 62.63,
+      "quality": 90,
+      "scale": 1
+    },
+    {
+      "from": "public/images/gallery/1.png",
+      "to": "public/images/gallery/1.webp",
+      "beforeKB": 2262.33,
+      "afterKB": 105.43,
+      "quality": 75,
+      "scale": 1
+    },
+    {
+      "from": "public/images/gallery/2.png",
+      "to": "public/images/gallery/2.webp",
+      "beforeKB": 2509.72,
+      "afterKB": 116.6,
+      "quality": 65,
+      "scale": 1
+    },
+    {
+      "from": "public/images/gallery/3.png",
+      "to": "public/images/gallery/3.webp",
+      "beforeKB": 1974.73,
+      "afterKB": 110.93,
+      "quality": 85,
+      "scale": 1
+    },
+    {
+      "from": "public/images/gallery/4.png",
+      "to": "public/images/gallery/4.webp",
+      "beforeKB": 2686.24,
+      "afterKB": 109.38,
+      "quality": 35,
+      "scale": 1
+    },
+    {
+      "from": "public/images/hero.png",
+      "to": "public/images/hero.webp",
+      "beforeKB": 1846.64,
+      "afterKB": 113.28,
+      "quality": 85,
+      "scale": 1
+    },
+    {
+      "from": "public/images/logo.png",
+      "to": "public/images/logo.webp",
+      "beforeKB": 1362.73,
+      "afterKB": 63.89,
+      "quality": 90,
+      "scale": 1
+    },
+    {
+      "from": "public/images/our story.png",
+      "to": "public/images/our story.webp",
+      "beforeKB": 1199.01,
+      "afterKB": 82.83,
+      "quality": 90,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/home.png",
+      "to": "public/images/services/home.webp",
+      "beforeKB": 1915.67,
+      "afterKB": 99.92,
+      "quality": 85,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/insurance.png",
+      "to": "public/images/services/insurance.webp",
+      "beforeKB": 1807.9,
+      "afterKB": 112.1,
+      "quality": 55,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/loading.png",
+      "to": "public/images/services/loading.webp",
+      "beforeKB": 1956.04,
+      "afterKB": 112.83,
+      "quality": 70,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/office.png",
+      "to": "public/images/services/office.webp",
+      "beforeKB": 2016.84,
+      "afterKB": 112.45,
+      "quality": 80,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/packing.png",
+      "to": "public/images/services/packing.webp",
+      "beforeKB": 1936.45,
+      "afterKB": 110.58,
+      "quality": 70,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/warehouse.png",
+      "to": "public/images/services/warehouse.webp",
+      "beforeKB": 2406.36,
+      "afterKB": 111.37,
+      "quality": 50,
+      "scale": 1
+    },
+    {
+      "from": "public/images/team/team-1.png",
+      "to": "public/images/team/team-1.webp",
+      "beforeKB": 2149.98,
+      "afterKB": 97.13,
+      "quality": 80,
+      "scale": 1
+    },
+    {
+      "from": "public/images/team/team-2.png",
+      "to": "public/images/team/team-2.webp",
+      "beforeKB": 2204.39,
+      "afterKB": 106.25,
+      "quality": 80,
+      "scale": 1
+    },
+    {
+      "from": "public/images/team/team-3.png",
+      "to": "public/images/team/team-3.webp",
+      "beforeKB": 2070.31,
+      "afterKB": 106.95,
+      "quality": 80,
+      "scale": 1
+    },
+    {
+      "from": "public/images/why.png",
+      "to": "public/images/why.webp",
+      "beforeKB": 1364.95,
+      "afterKB": 94.86,
+      "quality": 85,
+      "scale": 1
+    }
+  ]
+}

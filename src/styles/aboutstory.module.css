@@ -1,0 +1,123 @@
+.storySection {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Text Setup styling */
+.textColumn {
+  flex: 1.2;
+}
+
+.subTitle {
+  color: #FA6400; /* TrustMove Logo Orange */
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.mainTitle {
+  color: #0F2C59; /* TrustMove Logo Dark Blue */
+  font-size: 36px;
+  font-weight: 800;
+  margin: 10px 0 15px 0;
+  line-height: 1.2;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #FA6400;
+  margin-bottom: 25px;
+  border-radius: 2px;
+}
+
+.accentText {
+  font-size: 18px;
+  color: #0F2C59;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.bodyText {
+  color: #555555;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Mission & Vision Side-by-Side Cards */
+.missionVisionBox {
+  display: flex;
+  gap: 20px;
+  border-top: 1px solid #eeeeee;
+  padding-top: 25px;
+}
+
+.boxItem {
+  flex: 1;
+}
+
+.boxItem h4 {
+  color: #0F2C59;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.boxItem p {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Image Setup Styling */
+.imageColumn {
+  flex: 0.8;
+  width: 100%;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(15, 44, 89, 0.08);
+}
+
+.storyImage {
+  object-fit: cover;
+}
+
+/* Tablet & Mobile Breakpoint UI */
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .imageColumn {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .imageWrapper {
+    height: 350px;
+  }
+  .missionVisionBox {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mainTitle {
+    font-size: 28px;
+  }
+}

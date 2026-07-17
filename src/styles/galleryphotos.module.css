@@ -1,0 +1,125 @@
+.gallerySection {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+}
+
+.subTitle {
+  color: #FA6400; /* TrustMove Logo Orange */
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.mainTitle {
+  color: #0F2C59; /* TrustMove Logo Dark Blue */
+  font-size: 36px;
+  font-weight: 800;
+  margin: 10px 0 15px 0;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #FA6400;
+  margin: 0 auto 20px auto;
+  border-radius: 2px;
+}
+
+.description {
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* 4-Image Grid Configurations */
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Forms a clean landscape row for 4 photos */
+  gap: 20px;
+}
+
+.photoCard {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(15, 44, 89, 0.04);
+  position: relative;
+  aspect-ratio: 4 / 3; /* Keeps all photos perfectly uniform */
+  border: 1px solid #eeeeee;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.actualImage {
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+/* Hover Action Layer overlay */
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(15, 44, 89, 0.9) 10%, rgba(15, 44, 89, 0.2) 100%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.photoCaption {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  transform: translateY(10px);
+  transition: transform 0.3s ease;
+}
+
+/* Interactive Actions on Hover */
+.photoCard:hover .actualImage {
+  transform: scale(1.08); /* Clean minimalist zoom */
+}
+
+.photoCard:hover .imageOverlay {
+  opacity: 1;
+}
+
+.photoCard:hover .photoCaption {
+  transform: translateY(0);
+}
+
+/* Responsive Grid Adaptability */
+@media (max-width: 992px) {
+  .photoGrid {
+    grid-template-columns: repeat(2, 1fr); /* Drops down to a neat 2x2 grid stack on tablets */
+  }
+  .mainTitle {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 568px) {
+  .photoGrid {
+    grid-template-columns: 1fr; /* Stacks image items in 1 column neatly on mobile devices */
+  }
+}

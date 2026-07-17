@@ -1,0 +1,169 @@
+.whySection {
+  padding: 80px 20px;
+  background-color: #f8f9fa; /* Alternate soft clean light background */
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Image Visual Side Setup */
+.imageColumn {
+  flex: 1;
+  position: relative;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(15, 44, 89, 0.1);
+}
+
+.sideImage {
+  object-fit: cover;
+}
+
+.experienceCard {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background-color: #FA6400; /* TrustMove Logo Orange */
+  color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(250, 100, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 180px;
+  text-align: center;
+}
+
+.expNumber {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.expText {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Content Text Side Setup */
+.textColumn {
+  flex: 1;
+}
+
+.subTitle {
+  color: #FA6400; /* TrustMove Logo Orange */
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.mainTitle {
+  color: #0F2C59; /* TrustMove Logo Dark Blue */
+  font-size: 36px;
+  font-weight: 800;
+  margin: 10px 0 15px 0;
+  line-height: 1.2;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #FA6400;
+  margin: 0 0 25px 0;
+  border-radius: 2px;
+}
+
+.introText {
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+/* Advantage Items Structure */
+.advantagesList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.advantageItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.checkIcon {
+  width: 28px;
+  height: 28px;
+  background-color: rgba(250, 100, 0, 0.1); /* Translucent Orange */
+  color: #FA6400; /* TrustMove Orange */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.advantageContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantageTitle {
+  color: #0F2C59; /* TrustMove Dark Blue */
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+}
+
+.advantageText {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .imageColumn {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  .imageWrapper {
+    height: 380px;
+  }
+  .experienceCard {
+    right: 10px;
+    bottom: 10px;
+    padding: 15px 20px;
+  }
+  .mainTitle {
+    font-size: 28px;
+  }
+}

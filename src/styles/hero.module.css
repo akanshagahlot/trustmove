@@ -1,0 +1,186 @@
+.heroSection {
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding: 60px 20px;
+  overflow: hidden;
+}
+
+.heroImageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.backgroundImage {
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(15, 44, 89, 0.9) 30%, rgba(15, 44, 89, 0.6) 100%);
+  /* Mixes the deep blue of your logo over the image for high text readability */
+}
+
+.heroContentContainer {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.textColumn {
+  flex: 1.2;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #FA6400; /* Logo Orange */
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.featuresRow {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.featureItem {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 8px 16px;
+  border-radius: 4px;
+  backdrop-filter: blur(5px);
+}
+
+/* Form Design Styles */
+.formColumn {
+  flex: 0.8;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quoteCard {
+  background-color: #ffffff;
+  color: #0F2C59; /* Logo Dark Blue */
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 420px;
+}
+
+.quoteCard h3 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.inputGroup label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.inputGroup input,
+.inputGroup select {
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #0F2C59;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.inputGroup input:focus,
+.inputGroup select:focus {
+  border-color: #FA6400; /* Focused border shifts to your logo orange */
+}
+
+.submitBtn {
+  background-color: #FA6400; /* Logo Orange */
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 5px;
+}
+
+.submitBtn:hover {
+  background-color: #d45500;
+  transform: translateY(-1px);
+}
+
+/* Responsive Scaling */
+@media (max-width: 992px) {
+  .heroContentContainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+  .formColumn {
+    justify-content: center;
+    width: 100%;
+  }
+  .featuresRow {
+    justify-content: center;
+  }
+  .heading {
+    font-size: 36px;
+  }
+}

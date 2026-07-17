@@ -1,0 +1,114 @@
+.testimonialSection {
+  padding: 80px 20px;
+  background-color: #ffffff; /* Clean white background */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+}
+
+.subTitle {
+  color: #FA6400; /* TrustMove Logo Orange */
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.mainTitle {
+  color: #0F2C59; /* TrustMove Logo Dark Blue */
+  font-size: 36px;
+  font-weight: 800;
+  margin: 10px 0 15px 0;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #FA6400;
+  margin: 0 auto 20px auto;
+  border-radius: 2px;
+}
+
+.description {
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Grid layout for testimonial cards */
+.testimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.reviewCard {
+  background-color: #f8f9fa; /* Soft contrast background */
+  padding: 35px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(15, 44, 89, 0.02);
+  border: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.reviewCard:hover {
+  transform: translateY(-5px);
+}
+
+.starsRow {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 2px;
+}
+
+.star {
+  color: #FA6400; /* Logo Orange Stars */
+  font-size: 20px;
+}
+
+.feedbackText {
+  color: #555555;
+  font-size: 15px;
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0 0 25px 0;
+  flex-grow: 1;
+}
+
+.clientInfo {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 15px;
+}
+
+.clientName {
+  color: #0F2C59; /* TrustMove Dark Blue */
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+}
+
+.clientRole {
+  color: #888888;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Responsive Scaling */
+@media (max-width: 768px) {
+  .mainTitle {
+    font-size: 28px;
+  }
+  .testimonialsGrid {
+    grid-template-columns: 1fr;
+  }
+}

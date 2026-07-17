@@ -1,0 +1,138 @@
+.faqSection {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 800px; /* Centered narrow footprint for high scannability reading profiles */
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.subTitle {
+  color: #FA6400; /* Nex Go Accent Orange */
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.mainTitle {
+  color: #0F2C59; /* Nex Go Corporate Deep Blue */
+  font-size: 36px;
+  font-weight: 800;
+  margin: 10px 0 15px 0;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #FA6400;
+  margin: 0 auto 20px auto;
+  border-radius: 2px;
+}
+
+.description {
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Accordion Layout Architecture */
+.accordionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.accordionItem {
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+  overflow: hidden;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.accordionItem:hover {
+  border-color: #FA6400;
+}
+
+.itemOpen {
+  background-color: #ffffff;
+  border-color: #0F2C59;
+  box-shadow: 0 4px 15px rgba(15, 44, 89, 0.04);
+}
+
+.questionTrigger {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 25px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.questionText {
+  color: #0F2C59;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.iconToggle {
+  color: #FA6400;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Smooth CSS Dropdown Transitions */
+.answerWrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.showAnswer {
+  max-height: 200px; /* Accommodates paragraph heights safely */
+  transition: max-height 0.3s ease-in;
+}
+
+.answerContent {
+  padding: 0 25px 22px 25px;
+  border-top: 1px solid transparent;
+}
+
+.itemOpen .answerContent {
+  border-top-color: #eeeeee;
+  padding-top: 15px;
+}
+
+.answerContent p {
+  color: #555555;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive Structural Adjustments */
+@media (max-width: 768px) {
+  .mainTitle {
+    font-size: 28px;
+  }
+  .questionTrigger {
+    padding: 18px 20px;
+  }
+  .answerContent {
+    padding: 0 20px 18px 20px;
+  }
+}

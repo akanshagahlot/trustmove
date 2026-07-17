@@ -1,0 +1,58 @@
+.statsSection {
+  background-color: #0F2C59; /* TrustMove Dark Blue */
+  padding: 60px 20px;
+  position: relative;
+  border-bottom: 4px solid #FA6400; /* TrustMove Orange Accent Bottom border */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.statCard {
+  padding: 10px;
+}
+
+.statNumber {
+  color: #FA6400; /* Numbers pop in TrustMove Orange */
+  font-size: 44px;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+  letter-spacing: 0.5px;
+}
+
+.statLabel {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Mobile responsive fixes */
+@media (max-width: 768px) {
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr); /* Forms a balanced 2x2 grid layout on smaller viewports */
+    gap: 40px 20px;
+  }
+  .statNumber {
+    font-size: 34px;
+  }
+  .statLabel {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .statsGrid {
+    grid-template-columns: 1fr; /* Stacks vertically on very narrow screens */
+  }
+}

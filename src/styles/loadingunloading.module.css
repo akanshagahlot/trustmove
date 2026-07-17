@@ -1,0 +1,225 @@
+.heroBanner {
+  position: relative;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.imageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.bannerImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(30, 95, 138, 0.85), rgba(30, 95, 138, 0.7));
+}
+
+.contentContainer {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0 20px;
+  max-width: 800px;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+}
+
+.tagline {
+  font-size: 18px;
+  opacity: 0.9;
+  font-weight: 500;
+  margin: 0;
+}
+
+.detailSection {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+
+.contentColumn {
+  flex: 1.3;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #F47B20;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 25px;
+  transition: transform 0.2s ease;
+}
+
+.backLink:hover {
+  transform: translateX(-3px);
+}
+
+.sectionHeading {
+  color: #1E5F8A;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0 0 12px 0;
+}
+
+.underline {
+  width: 50px;
+  height: 4px;
+  background-color: #F47B20;
+  margin-bottom: 25px;
+  border-radius: 2px;
+}
+
+.descriptionText {
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.subHeading {
+  color: #1E5F8A;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.benefitsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.benefitItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.checkIcon {
+  color: #F47B20;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.sidebarColumn {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ctaCard {
+  background-color: #1E5F8A;
+  color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.ctaCard h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.ctaCard p {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.85;
+  margin: 0 0 25px 0;
+}
+
+.ctaButton {
+  display: block;
+  background-color: #F47B20;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.ctaButton:hover {
+  background-color: #d45500;
+  transform: translateY(-1px);
+}
+
+.trustWidget {
+  background-color: #f8f9fa;
+  border: 1px solid #eeeeee;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trustItem {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  color: #1E5F8A;
+}
+
+.trustItem svg {
+  color: #F47B20;
+  flex-shrink: 0;
+}
+
+.trustItem h4 {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+}
+
+.trustItem p {
+  font-size: 13px;
+  color: #666666;
+  margin: 0;
+  line-height: 1.4;
+}
+
+@media (max-width: 992px) {
+  .container { flex-direction: column; }
+  .heroBanner { height: 300px; }
+  .title { font-size: 32px; }
+}
+
+@media (max-width: 576px) {
+  .benefitsGrid { grid-template-columns: 1fr; }
+}

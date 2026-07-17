@@ -1,0 +1,106 @@
+.valuesSection {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+}
+
+.subTitle {
+  color: #FA6400; /* TrustMove Logo Orange */
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.mainTitle {
+  color: #0F2C59; /* TrustMove Logo Dark Blue */
+  font-size: 36px;
+  font-weight: 800;
+  margin: 10px 0 15px 0;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #FA6400;
+  margin: 0 auto 20px auto;
+  border-radius: 2px;
+}
+
+.description {
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Values Grid Setup */
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.valueCard {
+  background-color: #f8f9fa; /* Soft clean light gray background */
+  padding: 40px 30px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #eeeeee;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.valueCard:hover {
+  transform: translateY(-5px);
+  border-color: #FA6400; /* Accent highlight changes to logo orange on hover */
+  box-shadow: 0 10px 20px rgba(15, 44, 89, 0.05);
+}
+
+.iconWrapper {
+  margin: 0 auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+  color: #FA6400; /* Sets your logo orange color to the Lucide icon */
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.valueCard:hover .iconWrapper {
+  background-color: #FA6400; /* Turns the circle background orange on hover */
+  color: #ffffff;            /* Makes the Lucide icon turn white on hover */
+}
+
+.cardTitle {
+  color: #0F2C59; /* TrustMove Logo Dark Blue */
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.cardText {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive adjust */
+@media (max-width: 768px) {
+  .mainTitle {
+    font-size: 28px;
+  }
+}
