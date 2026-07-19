@@ -1,4 +1,4 @@
-'use client';
+
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -6,12 +6,13 @@ import { ArrowLeft, CheckCircle2, ShieldCheck, FileText } from 'lucide-react';
 import Navbar from "../../../component/navbar";
 import Footer from "../../../component/footer";
 import styles from "../../../styles/insuranceservice.module.css";
+
 export const metadata = {
   title:
-    "Transit Insurance Service | TrustMove Packers and Movers India",
+    "Transit Insurance Service | South Packer and Movers India",
 
   description:
-    "Protect your belongings with TrustMove's transit insurance service. We provide reliable insurance coverage for home shifting services in India, packing and shifting services, office relocation, and secure transportation across India.",
+    "Protect your belongings with South Packer and Movers' transit insurance service. We provide reliable insurance coverage for home shifting services in India, packing and shifting services, office relocation, and secure transportation across India.",
 
   keywords: [
     "home shifting services in india",
@@ -43,7 +44,7 @@ export default function InsuranceServicePage() {
       <section className={styles.heroBanner}>
         <div className={styles.imageWrapper}>
           <Image 
-            src="/images/services/insurance.png" 
+            src="/images/services/insurance.webp" 
             alt="Official legal documentation for comprehensive logistics safety coverage on transit goods" 
             fill 
             priority 

@@ -7,22 +7,22 @@ export default function Team() {
       id: 1,
       name: 'Vikram Malhotra',
       role: 'Operations Director',
-      image: '/images/team/team-1.png',
-      alt: 'Portrait of a TrustMove professional shifting supervisor in uniform coordinating logistics',
+      image: '/images/team/team-1.webp',
+      alt: 'Portrait of a South Packer and Movers professional shifting supervisor in uniform coordinating logistics',
     },
     {
       id: 2,
       name: 'Rajesh Sharma',
       role: 'Packing Supervisor',
-      image: '/images/team/team-2.png',
-      alt: 'Portrait of a senior TrustMove packing specialist ensuring secure inventory standards',
+      image: '/images/team/team-2.webp',
+      alt: 'Portrait of a senior South Packer and Movers packing specialist ensuring secure inventory standards',
     },
     {
       id: 3,
       name: 'Arjun Kapoor',
       role: 'Transit & Fleet Manager',
-      image: '/images/team/team-3.png',
-      alt: 'Portrait of a TrustMove logistics fleet coordinator managing safe transport routes',
+      image: '/images/team/team-3.webp',
+      alt: 'Portrait of a South Packer and Movers logistics fleet coordinator managing safe transport routes',
     },
   ];
 

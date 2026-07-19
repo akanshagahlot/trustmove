@@ -22,14 +22,15 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(30, 95, 138, 0.85), rgba(30, 95, 138, 0.7));
+  /* Blends your NEW deep navy blue smoothly over the background image */
+  background: linear-gradient(rgba(8, 43, 82, 0.85), rgba(8, 43, 82, 0.7));
 }
 .contentContainer { position: relative; z-index: 2; text-align: center; padding: 0 20px; }
 .title { font-size: 42px; font-weight: 800; margin: 0 0 12px 0; letter-spacing: 0.5px; }
 .breadcrumb { display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 15px; font-weight: 600; }
 .breadcrumb a { color: #ffffff; text-decoration: none; opacity: 0.85; transition: color 0.2s ease; }
-.breadcrumb a:hover { color: #F47B20; opacity: 1; }
-.separator { color: #F47B20; font-weight: 700; }
+.breadcrumb a:hover { color: #F46924; opacity: 1; } /* NEW Accent Orange */
+.separator { color: #F46924; font-weight: 700; } /* NEW Accent Orange */
 .current { color: #ffffff; opacity: 0.6; }
 @media (max-width: 768px) {
   .heroBanner { height: 240px; }

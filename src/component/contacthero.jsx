@@ -9,7 +9,7 @@ export default function ContactHero() {
       <div className={styles.imageWrapper}>
         <Image
           src="/images/contact-hero-support.jpg" // Place your support/communication image in public/images/
-          alt="TrustMove customer care support team helping clients with booking logistics"
+          alt="South Packer and Movers customer care support team helping clients with booking logistics"
           fill
           priority
           sizes="100vw"

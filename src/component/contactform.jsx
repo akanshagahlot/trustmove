@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import styles from "../styles/contactform.module.css";
 
@@ -85,14 +86,14 @@ export default function ContactForm() {
         <div className={styles.mapColumn}>
           <div className={styles.mapWrapper}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14312.42838421884!2d73.01828859999999!3d26.2582184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c2ca78df803%3A0x67341dbab659850!2sM.G.%20Road%2C%20Jodhpur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.834771764619!2d78.5028424!3d17.5153723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9b87bba09743%3A0xadbe0fcbbcb5d4ef!2sAlwal%2C%20Secunderabad%2C%20Telangana%20500010!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="TrustMove Jodhpur Headquarters Location Map"
+              title="South Packer and Movers Secunderabad Headquarters Location Map"
             ></iframe>
           </div>
         </div>

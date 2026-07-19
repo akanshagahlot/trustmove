@@ -1,5 +1,3 @@
-'use client';
-
 import Navbar from "../../component/navbar";
 import AboutHero from "../../component/abouthero";
 import AboutStory from "../../component/aboutstory";
@@ -7,11 +5,12 @@ import Stats from "../../component/stats";
 import CoreValues from "../../component/corevalues";
 import Team from "../../component/team";
 import Footer from "../../component/footer";
+
 export const metadata = {
   title:
-    "About TrustMove | Best Packers and Movers India | Home Shifting Services",
+    "About Speed Packer and Mover | Best Packers and Movers India | Home Shifting Services",
   description:
-    "Learn about TrustMove, one of the best packers and movers in India. We provide home shifting services in India, packing and shifting services, office packers and movers, home packers and movers, room shifting services near me, and reliable packing and movers near me.",
+    "Learn about Speed Packer and Mover, one of the best packers and movers in India. We provide home shifting services in India, packing and shifting services, office packers and movers, home packers and movers, room shifting services near me, and reliable packing and movers near me.",
   keywords: [
     "home shifting services in india",
     "packers and movers india",

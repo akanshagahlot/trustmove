@@ -6,10 +6,10 @@ export default function BlogCard() {
   const blogPost = {
     title: '5 Crucial Packing Tips for Safe Home Shifting Services in India',
     description:
-      'Discover expert packing techniques used by professional packers and movers India to protect delicate glassware, flat-screen TVs, and heavy wooden furniture. Learn how quality packing and shifting services help ensure a safe, damage-free relocation.',
-    image: '/images/blog.png',
+      'Discover expert packing techniques used by professional South Packer and Movers India to protect delicate glassware, flat-screen TVs, and heavy wooden furniture. Learn how quality packing and shifting services help ensure a safe, damage-free relocation.',
+    image: '/images/blog.webp',
     altText:
-      'Professional packers and movers India carefully packing household items for home shifting services in India',
+      'Professional South Packer and Movers India carefully packing household items for home shifting services in India',
     date: 'July 15, 2026',
     category: 'Relocation Tips',
     link: '/blog/shifting-tips' // Direct clear route pointing to the detailed file structure

@@ -20,13 +20,13 @@
   border-radius: 8px;
   text-align: center;
   border: 1px solid #eeeeee;
-  box-shadow: 0 4px 15px rgba(15, 44, 89, 0.02);
+  box-shadow: 0 4px 15px rgba(8, 43, 82, 0.02); /* Updated with new Navy Blue alpha */
   transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 .infoCard:hover {
   transform: translateY(-5px);
-  border-color: #FA6400; /* Accents border cleanly to logo orange on hover */
+  border-color: #F46924; /* NEW Accent Orange on hover */
 }
 
 .iconWrapper {
@@ -36,19 +36,19 @@
   width: 65px;
   height: 65px;
   border-radius: 50%;
-  background-color: rgba(250, 100, 0, 0.08); /* Transparent orange theme wrap */
-  color: #FA6400; /* TrustMove Logo Orange */
+  background-color: rgba(244, 105, 36, 0.08); /* Transparent orange theme wrap using NEW RGB values */
+  color: #F46924; /* NEW Accent Orange */
   margin-bottom: 20px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .infoCard:hover .iconWrapper {
-  background-color: #FA6400; /* Inverts color layout cleanly on component focus */
+  background-color: #F46924; /* NEW Accent Orange inverted on focus */
   color: #ffffff;
 }
 
 .cardTitle {
-  color: #0F2C59; /* TrustMove Logo Deep Blue */
+  color: #082B52; /* NEW Primary Navy Blue */
   font-size: 19px;
   font-weight: 700;
   margin: 0 0 10px 0;

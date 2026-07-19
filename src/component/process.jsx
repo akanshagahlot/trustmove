@@ -6,7 +6,7 @@ export default function Process() {
       stepNumber: '01',
       title: 'Book Online',
       description:
-        'Fill out our quick quote form with your pickup and destination details to book trusted home shifting services in India with TrustMove.',
+        'Fill out our quick quote form with your pickup and destination details to book trusted home shifting services in India with South Packer and Movers.',
     },
     {
       stepNumber: '02',
@@ -34,7 +34,7 @@ export default function Process() {
         {/* Header Text */}
         <div className={styles.sectionHeader}>
           <span className={styles.subTitle}>Seamless Relocation Journey</span>
-          <h2 className={styles.mainTitle}>How TrustMove Works</h2>
+          <h2 className={styles.mainTitle}>How South Packer and Movers Works</h2>
           <div className={styles.underline}></div>
           <p className={styles.description}>
             Our simple and transparent relocation process ensures safe home and office moving with professional support from booking to final delivery.

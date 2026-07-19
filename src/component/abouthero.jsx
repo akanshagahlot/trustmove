@@ -9,7 +9,7 @@ export default function AboutHero() {
       <div className={styles.imageWrapper}>
         <Image
           src="/images/about-hero-infrastructure.jpg" // Place your wide infrastructure photo in public/images/
-          alt="TrustMove operational team planning secure logistics and shifting routes"
+          alt="South Packer and Movers operational team planning secure logistics and shifting routes"
           fill
           priority
           sizes="100vw"
@@ -20,7 +20,7 @@ export default function AboutHero() {
 
       {/* Content Foreground */}
       <div className={styles.contentContainer}>
-        <h1 className={styles.title}>About TrustMove</h1>
+        <h1 className={styles.title}>About South Packer and Movers</h1>
         <div className={styles.breadcrumb}>
           <Link href="/">Home</Link>
           <span className={styles.separator}>/</span>

@@ -1,4 +1,4 @@
-'use client';
+
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,10 +9,10 @@ import styles from "../../../styles/homeshifting.module.css";
 
 export const metadata = {
   title:
-    "Home Shifting Services in India | TrustMove Packers and Movers India",
+    "Home Shifting Services in India | South Packer and Movers India",
 
   description:
-    "TrustMove provides professional home shifting services in India with safe packing, secure transportation, and reliable relocation solutions. Choose our trusted home packers and movers for hassle-free packing and shifting services across India.",
+    "South Packer and Movers provides professional home shifting services in India with safe packing, secure transportation, and reliable relocation solutions. Choose our trusted home packers and movers for hassle-free packing and shifting services across India.",
 
   keywords: [
     "home shifting services in india",
@@ -44,8 +44,8 @@ export default function HomeShiftingPage() {
       <section className={styles.heroBanner}>
         <div className={styles.imageWrapper}>
           <Image 
-            src="/images/services/home.png" 
-            alt="TrustMove professional squad carefully shifting living room household items" 
+            src="/images/services/home.webp" 
+            alt="South Packer and Movers professional squad carefully shifting living room household items" 
             fill 
             priority 
             sizes="100vw" 

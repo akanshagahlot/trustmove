@@ -1,5 +1,3 @@
-'use client';
-
 import Navbar from "../../component/navbar";
 import GalleryHero from "../../component/galleryhero";
 import GalleryPhotos from "../../component/galleryphotos";
@@ -7,10 +5,10 @@ import Footer from "../../component/footer";
 
 export const metadata = {
   title:
-    "Gallery | TrustMove Home Shifting Services in India | Packers and Movers India",
+    "Gallery | South Packer and Movers Home Shifting Services in India",
 
   description:
-    "Explore the TrustMove gallery showcasing our home shifting services in India, packing and shifting services, office packers and movers, home packers and movers, and professional relocation projects across India.",
+    "Explore the South Packer and Movers gallery showcasing our home shifting services in India, packing and shifting services, office packers and movers, home packers and movers, and professional relocation projects across India.",
 
   keywords: [
     "home shifting services in india",
@@ -25,6 +23,7 @@ export const metadata = {
     "the best packers and movers",
   ],
 };
+
 export default function GalleryPage() {
   return (
     <>

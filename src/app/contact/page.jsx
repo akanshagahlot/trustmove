@@ -1,16 +1,15 @@
-'use client';
-
 import Navbar from "../../component/navbar";
 import ContactHero from "../../component/contacthero";
 import ContactCards from "../../component/contactcards";
 import ContactForm from "../../component/contactform";
 import Footer from "../../component/footer";
+
 export const metadata = {
   title:
-    "Contact TrustMove | Home Shifting Services in India | Packers and Movers India",
+    "Contact Speed Packer and Mover | Home Shifting Services in India | Packers and Movers India",
 
   description:
-    "Contact TrustMove for reliable home shifting services in India. Our team provides professional packing and shifting services, office packers and movers, home packers and movers, and trusted relocation solutions across India.",
+    "Contact Speed Packer and Mover for reliable home shifting services in India. Our team provides professional packing and shifting services, office packers and movers, home packers and movers, and trusted relocation solutions across India.",
 
   keywords: [
     "home shifting services in india",

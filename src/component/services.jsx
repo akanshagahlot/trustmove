@@ -9,9 +9,9 @@ export default function Services() {
       title: 'Home Shifting',
       description:
         'Professional home shifting services in India with safe packing, secure transportation, and careful handling of furniture, electronics, and delicate household items.',
-      image: '/images/services/home.png',
+      image: '/images/services/home.webp',
       altText:
-        'TrustMove home shifting services in India with professional packers moving household furniture safely',
+        'South Packer and Movers home shifting services in India with professional packers moving household furniture safely',
       link: '/services/home-shifting'
     },
     {
@@ -19,9 +19,9 @@ export default function Services() {
       title: 'Office Shifting',
       description:
         'Reliable office relocation services with secure transportation of IT equipment, office furniture, documents, and business assets while minimizing downtime.',
-      image: '/images/services/office.png',
+      image: '/images/services/office.webp',
       altText:
-        'Professional office relocation by TrustMove packers and movers India',
+        'Professional office relocation by South Packer and Movers India',
       link: '/services/office-shifting'
     },
     {
@@ -29,7 +29,7 @@ export default function Services() {
       title: 'Insurance Service',
       description:
         'Protect your belongings with comprehensive transit insurance for a safe and worry-free moving experience across India.',
-      image: '/images/services/insurance.png',
+      image: '/images/services/insurance.webp',
       altText:
         'Transit insurance service for home and office relocation',
       link: '/services/insurance-service'
@@ -39,9 +39,9 @@ export default function Services() {
       title: 'Warehouse Services',
       description:
         'Secure, clean, and monitored warehouse storage solutions for household goods, office equipment, and commercial inventory.',
-      image: '/images/services/warehouse.png',
+      image: '/images/services/warehouse.webp',
       altText:
-        'Secure warehouse storage facility by TrustMove',
+        'Secure warehouse storage facility by South Packer and Movers',
       link: '/services/warehouse-service'
     },
     {
@@ -49,9 +49,9 @@ export default function Services() {
       title: 'Loading & Unloading',
       description:
         'Experienced professionals provide safe loading and unloading services to protect your belongings during every stage of the relocation process.',
-      image: '/images/services/loading.png',
+      image: '/images/services/loading.webp',
       altText:
-        'Professional loading and unloading services by TrustMove',
+        'Professional loading and unloading services by South Packer and Movers',
       link: '/services/loading-unloading'
     },
     {
@@ -59,7 +59,7 @@ export default function Services() {
       title: 'Packing & Unpacking',
       description:
         'High-quality packing and shifting services using premium packing materials to keep your valuables safe during transportation.',
-      image: '/images/services/packing.png',
+      image: '/images/services/packing.webp',
       altText:
         'Packing and shifting services using premium packing materials',
       link: '/services/packing-unpacking'
@@ -76,7 +76,7 @@ export default function Services() {
           <h2 className={styles.mainTitle}>Professional Packers and Movers India</h2>
           <div className={styles.underline}></div>
           <p className={styles.description}>
-            TrustMove offers complete relocation solutions, including home shifting, office relocation, warehouse storage, insurance, loading and unloading, and packing services. Our expert team delivers safe, reliable, and professional moving services across India.
+            South Packer and Movers offers complete relocation solutions, including home shifting, office relocation, warehouse storage, insurance, loading and unloading, and packing services. Our expert team delivers safe, reliable, and professional moving services across India.
           </p>
         </div>
 

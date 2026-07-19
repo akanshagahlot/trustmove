@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "TrustMove Packers & Movers",
+  title: "Speed Packer and Mover Packers & Movers",
   description:
-    "TrustMove Packers & Movers provides reliable home shifting, office relocation, packing, unpacking, loading, unloading, and transportation services across India.",
+    "Speed Packer and Mover Packers & Movers provides reliable home shifting, office relocation, packing, unpacking, loading, unloading, and transportation services across India.",
 
   icons: {
     icon: "/favicon.ico",

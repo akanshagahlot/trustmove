@@ -14,7 +14,7 @@
 }
 
 .subTitle {
-  color: #FA6400; /* Nex Go Accent Orange */
+  color: #F46924; /* NEW Accent Orange */
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -22,7 +22,7 @@
 }
 
 .mainTitle {
-  color: #0F2C59; /* Nex Go Corporate Deep Blue */
+  color: #082B52; /* NEW Primary Navy Blue */
   font-size: 36px;
   font-weight: 800;
   margin: 10px 0 15px 0;
@@ -31,7 +31,7 @@
 .underline {
   width: 60px;
   height: 4px;
-  background-color: #FA6400;
+  background-color: #F46924; /* NEW Accent Orange */
   margin: 0 auto 20px auto;
   border-radius: 2px;
 }
@@ -58,13 +58,13 @@
 }
 
 .accordionItem:hover {
-  border-color: #FA6400;
+  border-color: #F46924; /* NEW Accent Orange */
 }
 
 .itemOpen {
   background-color: #ffffff;
-  border-color: #0F2C59;
-  box-shadow: 0 4px 15px rgba(15, 44, 89, 0.04);
+  border-color: #082B52; /* NEW Primary Navy Blue */
+  box-shadow: 0 4px 15px rgba(8, 43, 82, 0.04); /* Updated with new Navy Blue alpha */
 }
 
 .questionTrigger {
@@ -82,14 +82,14 @@
 }
 
 .questionText {
-  color: #0F2C59;
+  color: #082B52; /* NEW Primary Navy Blue */
   font-size: 16px;
   font-weight: 700;
   line-height: 1.4;
 }
 
 .iconToggle {
-  color: #FA6400;
+  color: #F46924; /* NEW Accent Orange */
   flex-shrink: 0;
   display: flex;
   align-items: center;

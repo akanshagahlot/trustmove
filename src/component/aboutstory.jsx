@@ -14,7 +14,7 @@ export default function AboutStory() {
           <div className={styles.underline}></div>
           
           <p className={styles.accentText}>
-            TrustMove was founded on a simple principle: moving to a new space should be an exciting milestone, not a stressful burden. We are committed to providing reliable <strong>home shifting services in India</strong> with professionalism, safety, and complete customer satisfaction.
+            <strong>South Packer and Movers</strong> was founded on a simple principle: moving to a new space should be an exciting milestone, not a stressful burden. We are committed to providing reliable <strong>home shifting services in India</strong> with professionalism, safety, and complete customer satisfaction.
           </p>
           
           <p className={styles.bodyText}>
@@ -48,8 +48,8 @@ export default function AboutStory() {
         <div className={styles.imageColumn}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/images/our story.png"
-              alt="TrustMove team providing home shifting services in India with professional packing and moving solutions"
+              src="/images/our story.webp"
+              alt="South Packer and Movers team providing home shifting services in India with professional packing and moving solutions"
               fill
               sizes="(max-width: 992px) 100vw, 50vw"
               className={styles.storyImage}

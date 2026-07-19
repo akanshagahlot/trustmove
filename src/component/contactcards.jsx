@@ -7,19 +7,19 @@ export default function ContactCards() {
       id: 1,
       icon: <MapPin size={30} strokeWidth={1.5} />,
       title: 'Our Office Address',
-      details: '123, MG Road, Jodhpur, Rajasthan – 342001',
+      details: 'P-65 Greenfild kananiguda alwal secunderabad 500015',
     },
     {
       id: 2,
       icon: <PhoneCall size={30} strokeWidth={1.5} />,
       title: 'Call Us Directly',
-      details: '+91 98765 43210',
+      details: '+91 7093384607',
     },
     {
       id: 3,
       icon: <Mail size={30} strokeWidth={1.5} />,
       title: 'Email Communications',
-      details: 'info@trustmove.in',
+      details: 'info@southmoverspackers.com',
     },
   ];
 

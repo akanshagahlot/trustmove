@@ -5,25 +5,25 @@ export default function GalleryPhotos() {
   const photos = [
     {
       id: 1,
-      src: '/images/gallery/1.png',
-      alt: 'TrustMove professional movers neatly loading domestic goods into a clean transport truck with soft lighting',
+      src: '/images/gallery/1.webp',
+      alt: 'South Packer and Movers professional movers neatly loading domestic goods into a clean transport truck with soft lighting',
       caption: 'Safe Loading Process'
     },
     {
       id: 2,
-      src: '/images/gallery/2.png',
+      src: '/images/gallery/2.webp',
       alt: 'Relocation experts meticulously applying premium multilayer bubble wrap to fragile electronic items',
       caption: 'Secure Multi-layer Packing'
     },
     {
       id: 3,
-      src: '/images/gallery/3.png',
-      alt: 'TrustMove customized transit container truck carrying customer shipments safely on an open highway',
+      src: '/images/gallery/3.webp',
+      alt: 'South Packer and Movers customized transit container truck carrying customer shipments safely on an open highway',
       caption: 'On-Time Fleet Transit'
     },
     {
       id: 4,
-      src: '/images/gallery/4.png',
+      src: '/images/gallery/4.webp',
       alt: 'Clean organized corporate storage warehouse with packed shifting goods stacked systematically on shelving racks',
       caption: 'Modern Warehouse Management'
     }
@@ -36,7 +36,7 @@ export default function GalleryPhotos() {
         {/* Gallery Intro Text */}
         <div className={styles.sectionHeader}>
           <span className={styles.subTitle}>Our Operations</span>
-          <h2 className={styles.mainTitle}>TrustMove Work In Action</h2>
+          <h2 className={styles.mainTitle}>South Packer and Movers Work In Action</h2>
           <div className={styles.underline}></div>
           <p className={styles.description}>
             Take a look through our real-time shifting logs. We capture honest moments of our packing, loading, and transit services across the country.

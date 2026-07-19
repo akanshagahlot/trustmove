@@ -24,7 +24,7 @@
   height: 500px;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(15, 44, 89, 0.1);
+  box-shadow: 0 10px 30px rgba(8, 43, 82, 0.1); /* Updated with new Navy Blue alpha */
 }
 
 .sideImage {
@@ -35,11 +35,11 @@
   position: absolute;
   bottom: -20px;
   right: -20px;
-  background-color: #FA6400; /* TrustMove Logo Orange */
+  background-color: #F46924; /* NEW Accent Orange */
   color: #ffffff;
   padding: 25px 30px;
   border-radius: 8px;
-  box-shadow: 0 8px 25px rgba(250, 100, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(244, 105, 36, 0.3); /* Updated with new Orange alpha */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +67,7 @@
 }
 
 .subTitle {
-  color: #FA6400; /* TrustMove Logo Orange */
+  color: #F46924; /* NEW Accent Orange */
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -75,7 +75,7 @@
 }
 
 .mainTitle {
-  color: #0F2C59; /* TrustMove Logo Dark Blue */
+  color: #082B52; /* NEW Primary Navy Blue */
   font-size: 36px;
   font-weight: 800;
   margin: 10px 0 15px 0;
@@ -85,7 +85,7 @@
 .underline {
   width: 60px;
   height: 4px;
-  background-color: #FA6400;
+  background-color: #F46924; /* NEW Accent Orange */
   margin: 0 0 25px 0;
   border-radius: 2px;
 }
@@ -113,8 +113,8 @@
 .checkIcon {
   width: 28px;
   height: 28px;
-  background-color: rgba(250, 100, 0, 0.1); /* Translucent Orange */
-  color: #FA6400; /* TrustMove Orange */
+  background-color: rgba(244, 105, 36, 0.1); /* NEW Translucent Orange */
+  color: #F46924; /* NEW Accent Orange */
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -131,7 +131,7 @@
 }
 
 .advantageTitle {
-  color: #0F2C59; /* TrustMove Dark Blue */
+  color: #082B52; /* NEW Primary Navy Blue */
   font-size: 18px;
   font-weight: 700;
   margin: 0 0 5px 0;

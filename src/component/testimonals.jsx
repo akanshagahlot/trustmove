@@ -7,7 +7,7 @@ export default function Testimonials() {
       name: 'Rohan Sharma',
       role: 'Home Owner',
       feedback:
-        'TrustMove made my home shifting services in India completely hassle-free. Their team arrived on time, packed every fragile item with care, and ensured a smooth relocation from start to finish. I highly recommend their professional service.',
+        'South Packer and Movers made my home shifting services in India completely hassle-free. Their team arrived on time, packed every fragile item with care, and ensured a smooth relocation from start to finish. I highly recommend their professional service.',
       rating: 5,
     },
     {
@@ -15,7 +15,7 @@ export default function Testimonials() {
       name: 'Sneha Iyer',
       role: 'Tech Operations Lead',
       feedback:
-        'We hired TrustMove for our office relocation, and their packing and shifting services exceeded our expectations. They moved our entire IT setup over the weekend with zero downtime and excellent coordination.',
+        'We hired South Packer and Movers for our office relocation, and their packing and shifting services exceeded our expectations. They moved our entire IT setup over the weekend with zero downtime and excellent coordination.',
       rating: 5,
     },
     {
@@ -23,7 +23,7 @@ export default function Testimonials() {
       name: 'Amit Verma',
       role: 'Business Director',
       feedback:
-        'Among the best packers and movers India, TrustMove also offers secure warehouse storage with excellent inventory management. Everything was safe, organized, and delivered exactly as promised.',
+        'Among the best packers and movers India, South Packer and Movers also offers secure warehouse storage with excellent inventory management. Everything was safe, organized, and delivered exactly as promised.',
       rating: 5,
     },
   ];
@@ -37,7 +37,7 @@ export default function Testimonials() {
           <h2 className={styles.mainTitle}>What Our Customers Say</h2>
           <div className={styles.underline}></div>
           <p className={styles.description}>
-            Discover why thousands of customers trust TrustMove for safe home shifting, office relocation, packing, storage, and moving services across India.
+            Discover why thousands of customers trust South Packer and Movers for safe home shifting, office relocation, packing, storage, and moving services across India.
           </p>
         </div>
 

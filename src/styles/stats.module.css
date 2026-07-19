@@ -1,8 +1,8 @@
 .statsSection {
-  background-color: #0F2C59; /* TrustMove Dark Blue */
+  background-color: #082B52; /* NEW Primary Navy Blue */
   padding: 60px 20px;
   position: relative;
-  border-bottom: 4px solid #FA6400; /* TrustMove Orange Accent Bottom border */
+  border-bottom: 4px solid #F46924; /* NEW Accent Orange Accent Bottom border */
 }
 
 .container {
@@ -22,7 +22,7 @@
 }
 
 .statNumber {
-  color: #FA6400; /* Numbers pop in TrustMove Orange */
+  color: #F46924; /* NEW Accent Orange numbers */
   font-size: 44px;
   font-weight: 800;
   margin: 0 0 10px 0;

@@ -1,0 +1,187 @@
+{
+  "mode": "live",
+  "totals": {
+    "imagesFound": 19,
+    "converted": 19,
+    "conversionFailures": 0,
+    "codeFilesScanned": 78,
+    "filesUpdated": 17,
+    "originalsDeleted": 19,
+    "imagesResized": 0,
+    "avgSizeReductionPercent": 94.76
+  },
+  "updatedFiles": [
+    "image-optimization-report-dry.json",
+    "src/app/services/home-shifting/page.jsx",
+    "src/app/services/insurance-service/page.jsx",
+    "src/app/services/loading-unloading/page.jsx",
+    "src/app/services/office-shifting/page.jsx",
+    "src/app/services/packing-unpacking/page.jsx",
+    "src/app/services/warehouse-service/page.jsx",
+    "src/component/aboutstory.jsx",
+    "src/component/blogcard.jsx",
+    "src/component/blogdetailcontent.jsx",
+    "src/component/footer.jsx",
+    "src/component/galleryphotos.jsx",
+    "src/component/hero.jsx",
+    "src/component/navbar.jsx",
+    "src/component/services.jsx",
+    "src/component/team.jsx",
+    "src/component/whychooseus.jsx"
+  ],
+  "skipped": [],
+  "sampleConversions": [
+    {
+      "from": "public/images/blog.png",
+      "to": "public/images/blog.webp",
+      "beforeKB": 2435.33,
+      "afterKB": 111.5,
+      "quality": 60,
+      "scale": 1
+    },
+    {
+      "from": "public/images/footer.png",
+      "to": "public/images/footer.webp",
+      "beforeKB": 1300.32,
+      "afterKB": 108.88,
+      "quality": 90,
+      "scale": 1
+    },
+    {
+      "from": "public/images/gallery/1.png",
+      "to": "public/images/gallery/1.webp",
+      "beforeKB": 2103.56,
+      "afterKB": 114.88,
+      "quality": 75,
+      "scale": 1
+    },
+    {
+      "from": "public/images/gallery/2.png",
+      "to": "public/images/gallery/2.webp",
+      "beforeKB": 2536.88,
+      "afterKB": 114.41,
+      "quality": 50,
+      "scale": 1
+    },
+    {
+      "from": "public/images/gallery/3.png",
+      "to": "public/images/gallery/3.webp",
+      "beforeKB": 2008.84,
+      "afterKB": 96.88,
+      "quality": 75,
+      "scale": 1
+    },
+    {
+      "from": "public/images/gallery/4.png",
+      "to": "public/images/gallery/4.webp",
+      "beforeKB": 2471.98,
+      "afterKB": 116.55,
+      "quality": 35,
+      "scale": 1
+    },
+    {
+      "from": "public/images/hero.png",
+      "to": "public/images/hero.webp",
+      "beforeKB": 1919.68,
+      "afterKB": 105.14,
+      "quality": 75,
+      "scale": 1
+    },
+    {
+      "from": "public/images/logo.png",
+      "to": "public/images/logo.webp",
+      "beforeKB": 1399.04,
+      "afterKB": 96.22,
+      "quality": 90,
+      "scale": 1
+    },
+    {
+      "from": "public/images/our story.png",
+      "to": "public/images/our story.webp",
+      "beforeKB": 1979.54,
+      "afterKB": 110.13,
+      "quality": 80,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/home.png",
+      "to": "public/images/services/home.webp",
+      "beforeKB": 2085.6,
+      "afterKB": 104.32,
+      "quality": 75,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/insurance.png",
+      "to": "public/images/services/insurance.webp",
+      "beforeKB": 2172.35,
+      "afterKB": 112.09,
+      "quality": 60,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/loading.png",
+      "to": "public/images/services/loading.webp",
+      "beforeKB": 2138.7,
+      "afterKB": 115.2,
+      "quality": 75,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/office.png",
+      "to": "public/images/services/office.webp",
+      "beforeKB": 2065.93,
+      "afterKB": 109.95,
+      "quality": 75,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/packing.png",
+      "to": "public/images/services/packing.webp",
+      "beforeKB": 2373.92,
+      "afterKB": 111.23,
+      "quality": 60,
+      "scale": 1
+    },
+    {
+      "from": "public/images/services/warehouse.png",
+      "to": "public/images/services/warehouse.webp",
+      "beforeKB": 2474.71,
+      "afterKB": 114.68,
+      "quality": 40,
+      "scale": 1
+    },
+    {
+      "from": "public/images/team/team-1.png",
+      "to": "public/images/team/team-1.webp",
+      "beforeKB": 2195.15,
+      "afterKB": 116.1,
+      "quality": 80,
+      "scale": 1
+    },
+    {
+      "from": "public/images/team/team-2.png",
+      "to": "public/images/team/team-2.webp",
+      "beforeKB": 2144.6,
+      "afterKB": 111.16,
+      "quality": 80,
+      "scale": 1
+    },
+    {
+      "from": "public/images/team/team-3.png",
+      "to": "public/images/team/team-3.webp",
+      "beforeKB": 2198.21,
+      "afterKB": 113.07,
+      "quality": 65,
+      "scale": 1
+    },
+    {
+      "from": "public/images/why.png",
+      "to": "public/images/why.webp",
+      "beforeKB": 2053.23,
+      "afterKB": 116.88,
+      "quality": 75,
+      "scale": 1
+    }
+  ]
+}

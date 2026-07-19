@@ -38,7 +38,7 @@ export default function CoreValues() {
           <h2 className={styles.mainTitle}>Our Core Values</h2>
           <div className={styles.underline}></div>
           <p className={styles.description}>
-            Every move we manage is guided by professionalism, safety, and customer satisfaction, making TrustMove a reliable choice for home and office relocation across India.
+            Every move we manage is guided by professionalism, safety, and customer satisfaction, making South Packer and Movers a reliable choice for home and office relocation across India.
           </p>
         </div>
 

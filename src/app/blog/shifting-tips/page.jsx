@@ -1,4 +1,4 @@
-'use client';
+
 
 import Navbar from "../../../component/navbar";
 import BlogDetailContent from "../../../component/blogdetailcontent";

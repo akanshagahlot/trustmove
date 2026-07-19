@@ -1,4 +1,4 @@
-'use client';
+
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -6,12 +6,13 @@ import { ArrowLeft, CheckCircle2, ShieldCheck, Database } from 'lucide-react';
 import Navbar from "../../../component/navbar";
 import Footer from "../../../component/footer";
 import styles from "../../../styles/warehouseservice.module.css";
+
 export const metadata = {
   title:
-    "Warehouse and Storage Services | TrustMove Packers and Movers India",
+    "Warehouse and Storage Services | South Packer and Movers India",
 
   description:
-    "TrustMove provides secure warehouse and storage services for household goods, office equipment, and commercial belongings with safe storage solutions across India.",
+    "South Packer and Movers provides secure warehouse and storage services for household goods, office equipment, and commercial belongings with safe storage solutions across India.",
 
   keywords: [
     "home shifting services in india",
@@ -43,7 +44,7 @@ export default function WarehouseServicePage() {
       <section className={styles.heroBanner}>
         <div className={styles.imageWrapper}>
           <Image 
-            src="/images/services/warehouse.png" 
+            src="/images/services/warehouse.webp" 
             alt="Clean and spacious warehouse facility with securely stored pallets and packages managed by Nex Go" 
             fill 
             priority 

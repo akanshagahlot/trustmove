@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.trustmove.com
+Host: https://www.speedpackersandmovers.com
 
 # Sitemaps
-Sitemap: https://www.trustmove.com/sitemap.xml
+Sitemap: https://www.speedpackersandmovers.com/sitemap.xml

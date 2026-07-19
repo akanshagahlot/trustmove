@@ -1,9 +1,9 @@
 .footer {
-  background-color: #0F2C59; /* TrustMove Dark Blue matching your reference design background */
+  background-color: #082B52; /* NEW Primary Navy Blue background */
   color: #c4d1e2;
   padding: 80px 0 0 0;
   font-family: sans-serif;
-  border-top: 5px solid #FA6400; /* Subtle orange border accent on top */
+  border-top: 5px solid #F46924; /* NEW Accent Orange border accent on top */
 }
 
 .container {
@@ -56,7 +56,7 @@
 }
 
 .iconCircle:hover {
-  background-color: #FA6400; /* Hover color changes to your logo orange */
+  background-color: #F46924; /* NEW Accent Orange on hover */
   transform: translateY(-2px);
 }
 
@@ -78,7 +78,7 @@
   bottom: 0;
   width: 45px;
   height: 3px;
-  background-color: #FA6400; /* TrustMove Logo Orange Indicator */
+  background-color: #F46924; /* NEW Accent Orange Indicator */
 }
 
 .linksList {
@@ -99,7 +99,7 @@
 }
 
 .linksList a:hover {
-  color: #FA6400; /* Changes to logo orange on hover */
+  color: #F46924; /* NEW Accent Orange on hover */
   padding-left: 5px;
 }
 
@@ -117,7 +117,7 @@
 }
 
 .contactIcon {
-  color: #FA6400; /* TrustMove Orange for status symbols */
+  color: #F46924; /* NEW Accent Orange for status symbols */
   font-size: 16px;
 }
 
@@ -130,19 +130,19 @@
 
 .footerCta {
   display: inline-block;
-  background-color: #FA6400; /* TrustMove Accent Orange */
+  background-color: #F46924; /* NEW Accent Orange */
   color: #ffffff;
   padding: 12px 28px;
   border-radius: 25px;
   font-weight: 700;
   text-decoration: none;
   font-size: 14px;
-  box-shadow: 0 4px 15px rgba(250, 100, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(244, 105, 36, 0.2); /* Updated with new Orange alpha values */
   transition: background-color 0.3s, transform 0.2s;
 }
 
 .footerCta:hover {
-  background-color: #d45500;
+  background-color: #d15216; /* Clean darker shade matching your new accent orange */
   transform: translateY(-1px);
 }
 
@@ -171,7 +171,7 @@
 }
 
 .highlightText {
-  color: #FA6400; /* Highlight company name in copyright line with logo orange */
+  color: #F46924; /* NEW Accent Orange for company name copyright highlight */
   font-weight: 600;
 }
 

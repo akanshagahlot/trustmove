@@ -9,7 +9,7 @@ export default function ServicesHero() {
       <div className={styles.imageWrapper}>
         <Image
           src="/images/services-hero-fleet.jpg" // Place your corporate logistics/moving van image in public/images/
-          alt="Nex Go branded moving trucks and transport fleet lined up outside a clean terminal warehouse"
+          alt="South Packer and Movers branded moving trucks and transport fleet lined up outside a clean terminal warehouse"
           fill
           priority
           sizes="100vw"

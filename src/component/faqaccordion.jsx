@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import styles from "../styles/faqaccordion.module.css";
@@ -7,7 +8,7 @@ export default function FAQAccordion() {
 
   const faqData = [
     {
-      question: 'How early in advance should I book my relocation with TrustMove?',
+      question: 'How early in advance should I book my relocation with South Packer and Movers?',
       answer: 'We recommend scheduling your move at least 7 to 10 days before your preferred shifting date. This helps our team plan your home shifting services in India efficiently and ensures the availability of packing materials, vehicles, and experienced movers.',
     },
     {

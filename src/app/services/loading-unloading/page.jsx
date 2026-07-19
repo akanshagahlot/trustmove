@@ -1,4 +1,4 @@
-'use client';
+
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -6,12 +6,13 @@ import { ArrowLeft, CheckCircle2, ShieldCheck, Truck } from 'lucide-react';
 import Navbar from "../../../component/navbar";
 import Footer from "../../../component/footer";
 import styles from "../../../styles/loadingunloading.module.css";
+
 export const metadata = {
   title:
-    "Loading and Unloading Services | TrustMove Packers and Movers India",
+    "Loading and Unloading Services | South Packer and Movers India",
 
   description:
-    "TrustMove provides professional loading and unloading services with trained experts for safe handling of household and office belongings. Choose reliable packing and shifting services across India.",
+    "South Packer and Movers provides professional loading and unloading services with trained experts for safe handling of household and office belongings. Choose reliable packing and shifting services across India.",
 
   keywords: [
     "home shifting services in india",
@@ -43,7 +44,7 @@ export default function LoadingUnloadingPage() {
       <section className={styles.heroBanner}>
         <div className={styles.imageWrapper}>
           <Image 
-            src="/images/services/loading.png" 
+            src="/images/services/loading.webp" 
             alt="Moving experts safely lifting and loading heavy cardboard boxes onto a cargo delivery truck" 
             fill 
             priority 

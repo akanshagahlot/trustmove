@@ -7,7 +7,9 @@
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "optimize:images:dry": "node scripts/optimize-images-to-webp.js --dry-run",
+    "optimize:images": "node scripts/optimize-images-to-webp.js"
   },
   "dependencies": {
     "lucide-react": "^1.24.0",

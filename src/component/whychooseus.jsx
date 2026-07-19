@@ -33,7 +33,7 @@ export default function WhyChooseUs() {
         <div className={styles.imageColumn}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/images/why.png"
+              src="/images/why.webp"
               alt="Professional packers and movers India providing safe home shifting services in India"
               fill
               sizes="(max-width: 992px) 100vw, 50vw"
@@ -49,12 +49,12 @@ export default function WhyChooseUs() {
 
         {/* Value Propositions Text Column */}
         <div className={styles.textColumn}>
-          <span className={styles.subTitle}>Why Choose TrustMove</span>
+          <span className={styles.subTitle}>Why Choose South Packer and Movers</span>
           <h2 className={styles.mainTitle}>Professional Packers and Movers India</h2>
           <div className={styles.underline}></div>
 
           <p className={styles.introText}>
-            TrustMove delivers reliable home and office relocation solutions with expert packing, secure transportation, warehouse storage, and customer-focused service. We are committed to making every move safe, efficient, and stress-free.
+            <strong>South Packer and Movers</strong> delivers reliable home and office relocation solutions with expert packing, secure transportation, warehouse storage, and customer-focused service. We are committed to making every move safe, efficient, and stress-free.
           </p>
 
           <div className={styles.advantagesList}>

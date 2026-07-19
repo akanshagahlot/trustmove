@@ -29,7 +29,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(15, 44, 89, 0.85), rgba(15, 44, 89, 0.7));
+  /* Blends your new navy blue color cleanly using updated RGBA profiles */
+  background: linear-gradient(rgba(8, 43, 82, 0.85), rgba(8, 43, 82, 0.7));
 }
 
 .contentContainer {
@@ -74,7 +75,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #FA6400; /* TrustMove Accent Orange */
+  color: #F46924; /* NEW Accent Orange */
   text-decoration: none;
   font-weight: 700;
   font-size: 14px;
@@ -87,7 +88,7 @@
 }
 
 .sectionHeading {
-  color: #0F2C59; /* TrustMove Logo Dark Blue */
+  color: #082B52; /* NEW Primary Navy Blue */
   font-size: 28px;
   font-weight: 800;
   margin: 0 0 12px 0;
@@ -96,7 +97,7 @@
 .underline {
   width: 50px;
   height: 4px;
-  background-color: #FA6400;
+  background-color: #F46924; /* NEW Accent Orange */
   margin-bottom: 25px;
   border-radius: 2px;
 }
@@ -109,7 +110,7 @@
 }
 
 .subHeading {
-  color: #0F2C59;
+  color: #082B52; /* NEW Primary Navy Blue */
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 20px 0;
@@ -132,7 +133,7 @@
 }
 
 .checkIcon {
-  color: #FA6400;
+  color: #F46924; /* NEW Accent Orange */
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -146,7 +147,7 @@
 }
 
 .ctaCard {
-  background-color: #0F2C59;
+  background-color: #082B52; /* NEW Primary Navy Blue */
   color: #ffffff;
   padding: 40px 30px;
   border-radius: 8px;
@@ -168,7 +169,7 @@
 
 .ctaButton {
   display: block;
-  background-color: #FA6400;
+  background-color: #F46924; /* NEW Accent Orange */
   color: #ffffff;
   text-decoration: none;
   padding: 14px;
@@ -179,7 +180,7 @@
 }
 
 .ctaButton:hover {
-  background-color: #d45500;
+  background-color: #d15216; /* Clean darker shade matching your new accent orange */
   transform: translateY(-1px);
 }
 
@@ -197,11 +198,11 @@
   display: flex;
   gap: 15px;
   align-items: flex-start;
-  color: #0F2C59;
+  color: #082B52; /* NEW Primary Navy Blue */
 }
 
 .trustItem svg {
-  color: #FA6400;
+  color: #F46924; /* NEW Accent Orange */
   flex-shrink: 0;
 }
 

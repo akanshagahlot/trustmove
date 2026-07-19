@@ -19,8 +19,8 @@ export default function Hero() {
       {/* Visual Background Image Setup */}
       <div className={styles.heroImageContainer}>
         <Image
-          src="/images/hero.png"
-          alt="TrustMove professional packers and movers India loading household belongings for home shifting services in India"
+          src="/images/hero.webp"
+          alt="South Packer and Movers professional packers and movers India loading household belongings for home shifting services in India"
           fill
           priority
           sizes="100vw"
@@ -39,7 +39,7 @@ export default function Hero() {
           </h1>
 
           <p className={styles.subheading}>
-            TrustMove offers professional <strong>packing and shifting services</strong> for homes and offices across India. As one of the trusted <strong>packers and movers India</strong>, we ensure secure packing, safe transportation, warehouse storage, and on-time delivery for a completely stress-free moving experience.
+            <strong>South Packer and Movers</strong> offers professional <strong>packing and shifting services</strong> for homes and offices across India. As one of the trusted <strong>packers and movers India</strong>, we ensure secure packing, safe transportation, warehouse storage, and on-time delivery for a completely stress-free moving experience.
           </p>
 
           <div className={styles.featuresRow}>

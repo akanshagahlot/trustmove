@@ -15,7 +15,7 @@
 }
 
 .subTitle {
-  color: #FA6400; /* TrustMove Logo Orange */
+  color: #F46924; /* NEW Accent Orange */
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -23,7 +23,7 @@
 }
 
 .mainTitle {
-  color: #0F2C59; /* TrustMove Logo Dark Blue */
+  color: #082B52; /* NEW Primary Navy Blue */
   font-size: 36px;
   font-weight: 800;
   margin: 10px 0 15px 0;
@@ -32,7 +32,7 @@
 .underline {
   width: 60px;
   height: 4px;
-  background-color: #FA6400;
+  background-color: #F46924; /* NEW Accent Orange */
   margin: 0 auto 20px auto;
   border-radius: 2px;
 }
@@ -53,7 +53,7 @@
 .photoCard {
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(15, 44, 89, 0.04);
+  box-shadow: 0 4px 15px rgba(8, 43, 82, 0.04); /* Updated with new Navy Blue alpha */
   position: relative;
   aspect-ratio: 4 / 3; /* Keeps all photos perfectly uniform */
   border: 1px solid #eeeeee;
@@ -77,7 +77,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(15, 44, 89, 0.9) 10%, rgba(15, 44, 89, 0.2) 100%);
+  /* Blends your new navy blue color cleanly using updated RGBA profiles */
+  background: linear-gradient(to top, rgba(8, 43, 82, 0.9) 10%, rgba(8, 43, 82, 0.2) 100%);
   display: flex;
   align-items: flex-end;
   justify-content: center;

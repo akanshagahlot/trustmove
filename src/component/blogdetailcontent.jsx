@@ -24,8 +24,8 @@ export default function BlogDetailContent() {
         
         <div className={styles.mainImageWrapper}>
           <Image
-            src="/images/blog.png"
-            alt="Professional packers and movers India carefully packing household items for home shifting services in India"
+            src="/images/blog.webp"
+            alt="Professional South Packer and Movers India carefully packing household items for home shifting services in India"
             fill
             priority
             sizes="100vw"
@@ -35,7 +35,7 @@ export default function BlogDetailContent() {
 
         <div className={styles.textContent}>
           <p>
-            Moving to a new home is an exciting experience, but it also requires careful planning and organization. Whether you are relocating locally or across the country, choosing professional <strong>home shifting services in India</strong> can make the entire process safer and stress-free. Experienced <strong>packers and movers India</strong> use high-quality materials and proven techniques to protect your valuable belongings throughout the journey.
+            Moving to a new home is an exciting experience, but it also requires careful planning and organization. Whether you are relocating locally or across the country, choosing professional <strong>home shifting services in India</strong> can make the entire process safer and stress-free. Experienced <strong>South Packer and Movers India</strong> use high-quality materials and proven techniques to protect your valuable belongings throughout the journey.
           </p>
           
           <h2>1. Implement Multi-Layer Protective Cushioning</h2>

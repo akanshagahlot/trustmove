@@ -28,8 +28,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  /* Blends the deep blue logo color smoothly over the background image */
-  background: linear-gradient(rgba(15, 44, 89, 0.85), rgba(15, 44, 89, 0.7));
+  /* Blends your NEW deep navy blue logo color smoothly over the background image */
+  background: linear-gradient(rgba(8, 43, 82, 0.85), rgba(8, 43, 82, 0.7));
 }
 
 .contentContainer {
@@ -64,12 +64,12 @@
 }
 
 .breadcrumb a:hover {
-  color: #FA6400; /* TrustMove Accent Orange on hover */
+  color: #F46924; /* NEW Accent Orange on hover */
   opacity: 1;
 }
 
 .separator {
-  color: #FA6400; /* Separator matches your logo accent color */
+  color: #F46924; /* NEW Separator matches your logo accent color */
   font-weight: 700;
 }
 

@@ -1,15 +1,14 @@
-'use client';
-
 import Navbar from "../../component/navbar";
 import FAQHero from "../../component/faqhero";
 import FAQAccordion from "../../component/faqaccordion";
 import Footer from "../../component/footer";
+
 export const metadata = {
   title:
-    "FAQ | TrustMove Home Shifting Services in India | Packers and Movers India",
+    "FAQ | Speed Packer and Mover Home Shifting Services in India | Packers and Movers India",
 
   description:
-    "Find answers to frequently asked questions about TrustMove's home shifting services in India, packing and shifting services, office packers and movers, home packers and movers, and relocation process.",
+    "Find answers to frequently asked questions about Speed Packer and Mover's home shifting services in India, packing and shifting services, office packers and movers, home packers and movers, and relocation process.",
 
   keywords: [
     "home shifting services in india",

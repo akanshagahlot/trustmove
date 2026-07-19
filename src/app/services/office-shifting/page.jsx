@@ -1,4 +1,4 @@
-'use client';
+
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -6,12 +6,13 @@ import { ArrowLeft, CheckCircle2, ShieldCheck, Clock } from 'lucide-react';
 import Navbar from "../../../component/navbar";
 import Footer from "../../../component/footer";
 import styles from "../../../styles/officeshifting.module.css";
+
 export const metadata = {
   title:
-    "Office Packers and Movers | TrustMove Packers and Movers India",
+    "Office Packers and Movers | South Packer and Movers India",
 
   description:
-    "TrustMove provides professional office packers and movers with safe office relocation, expert packing and shifting services, secure transportation, and reliable business moving solutions across India.",
+    "South Packer and Movers provides professional office packers and movers with safe office relocation, expert packing and shifting services, secure transportation, and reliable business moving solutions across India.",
 
   keywords: [
     "home shifting services in india",
@@ -43,7 +44,7 @@ export default function OfficeShiftingPage() {
       <section className={styles.heroBanner}>
         <div className={styles.imageWrapper}>
           <Image 
-            src="/images/services/office.png" 
+            src="/images/services/office.webp" 
             alt="Corporate logistics team organizedly packing office computers and desks during an office relocation project" 
             fill 
             priority 

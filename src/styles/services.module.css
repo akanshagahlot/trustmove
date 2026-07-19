@@ -15,7 +15,7 @@
 }
 
 .subTitle {
-  color: #F47B20; /* Nex Go Accent Orange */
+  color: #F46924; /* NEW Accent Orange */
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -23,7 +23,7 @@
 }
 
 .mainTitle {
-  color: #1E5F8A; /* Nex Go Deep Blue */
+  color: #082B52; /* NEW Primary Navy Blue */
   font-size: 36px;
   font-weight: 800;
   margin: 10px 0 15px 0;
@@ -32,7 +32,7 @@
 .underline {
   width: 60px;
   height: 4px;
-  background-color: #F47B20; /* Orange Underline */
+  background-color: #F46924; /* NEW Accent Orange Underline */
   margin: 0 auto 20px auto;
   border-radius: 2px;
 }
@@ -55,7 +55,7 @@
   border: 1px solid #eeeeee;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(30, 95, 138, 0.03);
+  box-shadow: 0 4px 15px rgba(8, 43, 82, 0.03); /* Updated with new Navy Blue alpha */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -63,7 +63,7 @@
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(30, 95, 138, 0.08);
+  box-shadow: 0 8px 25px rgba(8, 43, 82, 0.08); /* Updated with new Navy Blue alpha */
 }
 
 .imageWrapper {
@@ -90,7 +90,7 @@
 }
 
 .cardTitle {
-  color: #1E5F8A; /* Deep Blue Title */
+  color: #082B52; /* NEW Primary Navy Blue Title */
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 12px 0;
@@ -105,7 +105,7 @@
 }
 
 .cardLink {
-  color: #F47B20; /* Orange Button Link */
+  color: #F46924; /* NEW Accent Orange Button Link */
   text-decoration: none;
   font-weight: 700;
   font-size: 14px;
@@ -121,7 +121,7 @@
 }
 
 .cardLink:hover {
-  color: #1E5F8A; /* Changes to Deep Blue on Hover */
+  color: #082B52; /* NEW Primary Navy Blue on Hover */
 }
 
 .cardLink:hover span {

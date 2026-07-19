@@ -33,8 +33,8 @@ export default function Navbar() {
         <Link href="/" className={styles.logoLink}>
           <div className={styles.logoWrapper}>
             <Image
-              src="/images/logo.png"
-              alt="TrustMove Packers and Movers Logo"
+              src="/images/logo.webp"
+              alt="South Packer and Movers Logo"
               width={100}
               height={50}
               priority

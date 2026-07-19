@@ -1,14 +1,14 @@
 {
   "mode": "dry-run",
   "totals": {
-    "imagesFound": 23,
-    "converted": 23,
+    "imagesFound": 19,
+    "converted": 19,
     "conversionFailures": 0,
     "codeFilesScanned": 78,
     "filesUpdated": 17,
     "originalsDeleted": 0,
     "imagesResized": 0,
-    "avgSizeReductionPercent": 94.77
+    "avgSizeReductionPercent": 94.76
   },
   "updatedFiles": [
     "image-optimization-report-dry.json",
@@ -32,187 +32,155 @@
   "skipped": [],
   "sampleConversions": [
     {
-      "from": "public/android-chrome-512x512.png",
-      "to": "public/android-chrome-512x512.webp",
-      "beforeKB": 71.67,
-      "afterKB": 18.52,
-      "quality": 90,
-      "scale": 1
-    },
-    {
-      "from": "public/apple-touch-icon.png",
-      "to": "public/apple-touch-icon.webp",
-      "beforeKB": 12.84,
-      "afterKB": 4.75,
-      "quality": 90,
-      "scale": 1
-    },
-    {
-      "from": "public/favicon-16x16.png",
-      "to": "public/favicon-16x16.webp",
-      "beforeKB": 0.45,
-      "afterKB": 0.36,
-      "quality": 90,
-      "scale": 1
-    },
-    {
-      "from": "public/favicon-32x32.png",
-      "to": "public/favicon-32x32.webp",
-      "beforeKB": 1,
-      "afterKB": 0.73,
-      "quality": 90,
-      "scale": 1
-    },
-    {
       "from": "public/images/blog.png",
       "to": "public/images/blog.webp",
-      "beforeKB": 2409.95,
-      "afterKB": 108.02,
-      "quality": 75,
+      "beforeKB": 2435.33,
+      "afterKB": 111.5,
+      "quality": 60,
       "scale": 1
     },
     {
       "from": "public/images/footer.png",
       "to": "public/images/footer.webp",
-      "beforeKB": 1358.93,
-      "afterKB": 62.63,
+      "beforeKB": 1300.32,
+      "afterKB": 108.88,
       "quality": 90,
       "scale": 1
     },
     {
       "from": "public/images/gallery/1.png",
       "to": "public/images/gallery/1.webp",
-      "beforeKB": 2262.33,
-      "afterKB": 105.43,
+      "beforeKB": 2103.56,
+      "afterKB": 114.88,
       "quality": 75,
       "scale": 1
     },
     {
       "from": "public/images/gallery/2.png",
       "to": "public/images/gallery/2.webp",
-      "beforeKB": 2509.72,
-      "afterKB": 116.6,
-      "quality": 65,
+      "beforeKB": 2536.88,
+      "afterKB": 114.41,
+      "quality": 50,
       "scale": 1
     },
     {
       "from": "public/images/gallery/3.png",
       "to": "public/images/gallery/3.webp",
-      "beforeKB": 1974.73,
-      "afterKB": 110.93,
-      "quality": 85,
+      "beforeKB": 2008.84,
+      "afterKB": 96.88,
+      "quality": 75,
       "scale": 1
     },
     {
       "from": "public/images/gallery/4.png",
       "to": "public/images/gallery/4.webp",
-      "beforeKB": 2686.24,
-      "afterKB": 109.38,
+      "beforeKB": 2471.98,
+      "afterKB": 116.55,
       "quality": 35,
       "scale": 1
     },
     {
       "from": "public/images/hero.png",
       "to": "public/images/hero.webp",
-      "beforeKB": 1846.64,
-      "afterKB": 113.28,
-      "quality": 85,
+      "beforeKB": 1919.68,
+      "afterKB": 105.14,
+      "quality": 75,
       "scale": 1
     },
     {
       "from": "public/images/logo.png",
       "to": "public/images/logo.webp",
-      "beforeKB": 1362.73,
-      "afterKB": 63.89,
+      "beforeKB": 1399.04,
+      "afterKB": 96.22,
       "quality": 90,
       "scale": 1
     },
     {
       "from": "public/images/our story.png",
       "to": "public/images/our story.webp",
-      "beforeKB": 1199.01,
-      "afterKB": 82.83,
-      "quality": 90,
+      "beforeKB": 1979.54,
+      "afterKB": 110.13,
+      "quality": 80,
       "scale": 1
     },
     {
       "from": "public/images/services/home.png",
       "to": "public/images/services/home.webp",
-      "beforeKB": 1915.67,
-      "afterKB": 99.92,
-      "quality": 85,
+      "beforeKB": 2085.6,
+      "afterKB": 104.32,
+      "quality": 75,
       "scale": 1
     },
     {
       "from": "public/images/services/insurance.png",
       "to": "public/images/services/insurance.webp",
-      "beforeKB": 1807.9,
-      "afterKB": 112.1,
-      "quality": 55,
+      "beforeKB": 2172.35,
+      "afterKB": 112.09,
+      "quality": 60,
       "scale": 1
     },
     {
       "from": "public/images/services/loading.png",
       "to": "public/images/services/loading.webp",
-      "beforeKB": 1956.04,
-      "afterKB": 112.83,
-      "quality": 70,
+      "beforeKB": 2138.7,
+      "afterKB": 115.2,
+      "quality": 75,
       "scale": 1
     },
     {
       "from": "public/images/services/office.png",
       "to": "public/images/services/office.webp",
-      "beforeKB": 2016.84,
-      "afterKB": 112.45,
-      "quality": 80,
+      "beforeKB": 2065.93,
+      "afterKB": 109.95,
+      "quality": 75,
       "scale": 1
     },
     {
       "from": "public/images/services/packing.png",
       "to": "public/images/services/packing.webp",
-      "beforeKB": 1936.45,
-      "afterKB": 110.58,
-      "quality": 70,
+      "beforeKB": 2373.92,
+      "afterKB": 111.23,
+      "quality": 60,
       "scale": 1
     },
     {
       "from": "public/images/services/warehouse.png",
       "to": "public/images/services/warehouse.webp",
-      "beforeKB": 2406.36,
-      "afterKB": 111.37,
-      "quality": 50,
+      "beforeKB": 2474.71,
+      "afterKB": 114.68,
+      "quality": 40,
       "scale": 1
     },
     {
       "from": "public/images/team/team-1.png",
       "to": "public/images/team/team-1.webp",
-      "beforeKB": 2149.98,
-      "afterKB": 97.13,
+      "beforeKB": 2195.15,
+      "afterKB": 116.1,
       "quality": 80,
       "scale": 1
     },
     {
       "from": "public/images/team/team-2.png",
       "to": "public/images/team/team-2.webp",
-      "beforeKB": 2204.39,
-      "afterKB": 106.25,
+      "beforeKB": 2144.6,
+      "afterKB": 111.16,
       "quality": 80,
       "scale": 1
     },
     {
       "from": "public/images/team/team-3.png",
       "to": "public/images/team/team-3.webp",
-      "beforeKB": 2070.31,
-      "afterKB": 106.95,
-      "quality": 80,
+      "beforeKB": 2198.21,
+      "afterKB": 113.07,
+      "quality": 65,
       "scale": 1
     },
     {
       "from": "public/images/why.png",
       "to": "public/images/why.webp",
-      "beforeKB": 1364.95,
-      "afterKB": 94.86,
-      "quality": 85,
+      "beforeKB": 2053.23,
+      "afterKB": 116.88,
+      "quality": 75,
       "scale": 1
     }
   ]

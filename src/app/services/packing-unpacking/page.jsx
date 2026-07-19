@@ -1,4 +1,4 @@
-'use client';
+
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -6,12 +6,13 @@ import { ArrowLeft, CheckCircle2, ShieldCheck, Box } from 'lucide-react';
 import Navbar from "../../../component/navbar";
 import Footer from "../../../component/footer";
 import styles from "../../../styles/packingunpacking.module.css";
+
 export const metadata = {
   title:
-    "Packing and Unpacking Services | TrustMove Packers and Movers India",
+    "Packing and Unpacking Services | South Packer and Movers India",
 
   description:
-    "TrustMove offers professional packing and unpacking services with high-quality packing materials to ensure safe home and office relocation across India.",
+    "South Packer and Movers offers professional packing and unpacking services with high-quality packing materials to ensure safe home and office relocation across India.",
 
   keywords: [
     "home shifting services in india",
@@ -43,7 +44,7 @@ export default function PackingUnpackingPage() {
       <section className={styles.heroBanner}>
         <div className={styles.imageWrapper}>
           <Image 
-            src="/images/services/packing.png" 
+            src="/images/services/packing.webp" 
             alt="Close up of hands using bubble wrap and heavy duty tape to secure delicate goods for transit" 
             fill 
             priority 

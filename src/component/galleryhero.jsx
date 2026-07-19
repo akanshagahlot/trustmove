@@ -9,7 +9,7 @@ export default function GalleryHero() {
       <div className={styles.imageWrapper}>
         <Image
           src="/images/gallery-hero-banner.jpg" // Place your wide infrastructure photo in public/images/
-          alt="TrustMove modern logistics fleet and moving equipment lined up securely"
+          alt="South Packer and Movers modern logistics fleet and moving equipment lined up securely"
           fill
           priority
           sizes="100vw"

@@ -11,15 +11,15 @@ export default function Footer() {
         <div className={styles.column}>
           <div className={styles.logoWrapper}>
             <Image 
-              src="/images/footer.png" 
-              alt="TrustMove Packers and Movers Logo" 
+              src="/images/footer.webp" 
+              alt="South Packer and Movers Logo" 
               width={180} 
               height={50} 
               className={styles.footerLogo}
             />
           </div>
           <p className={styles.brandDesc}>
-            TrustMove Packers & Movers provides safe, reliable, and affordable relocation services across India — for homes, offices, and commercial goods.
+            South Packer and Movers provides safe, reliable, and affordable relocation services across India — for homes, offices, and commercial goods.
           </p>
           <div className={styles.socialIcons}>
             <a href="#" className={styles.iconCircle}>f</a>
@@ -52,7 +52,6 @@ export default function Footer() {
             <li><Link href="/services/packing-unpacking">› Packing & Unpacking</Link></li>
             <li><Link href="/services/warehouse-service">› Warehouse Services</Link></li>
             <li><Link href="/services/insurance-service">› Insurance Services</Link></li>
-            
           </ul>
         </div>
 
@@ -62,15 +61,15 @@ export default function Footer() {
           <div className={styles.contactDetails}>
             <div className={styles.contactItem}>
               <span className={styles.contactIcon}>📍</span>
-              <p>123, MG Road, Jodhpur, Rajasthan – 342001</p>
+              <p>P-65 Greenfild kananiguda alwal secunderabad 500015</p>
             </div>
             <div className={styles.contactItem}>
               <span className={styles.contactIcon}>📞</span>
-              <p>+91 98765 43210</p>
+              <p>+91 7093384607</p>
             </div>
             <div className={styles.contactItem}>
               <span className={styles.contactIcon}>✉</span>
-              <p>info@trustmove.in</p>
+              <p>info@southmoverspackers.com</p>
             </div>
           </div>
           <Link href="contact" className={styles.footerCta}>
@@ -83,7 +82,7 @@ export default function Footer() {
       {/* Bottom Bar Custom Copyrights */}
       <div className={styles.bottomBar}>
         <div className={styles.bottomContainer}>
-          <p>© 2026 <span className={styles.highlightText}>TrustMove Packers & Movers</span>. All Rights Reserved.</p>
+          <p>© 2026 <span className={styles.highlightText}>South Packer and Movers</span>. All Rights Reserved.</p>
           <div className={styles.legalLinks}>
             <Link href="#terms">Terms & Conditions</Link>
             <Link href="#privacy">Privacy Policy</Link>

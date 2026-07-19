@@ -28,8 +28,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  /* Blends your deep blue corporate color (#1E5F8A) directly over background visuals for high text legibility */
-  background: linear-gradient(rgba(30, 95, 138, 0.85), rgba(30, 95, 138, 0.7));
+  /* Blends your new navy blue color cleanly using updated RGBA profiles */
+  background: linear-gradient(rgba(8, 43, 82, 0.85), rgba(8, 43, 82, 0.7));
 }
 
 .contentContainer {
@@ -64,12 +64,12 @@
 }
 
 .breadcrumb a:hover {
-  color: #F47B20; /* Nex Go Accent Orange (#F47B20) */
+  color: #F46924; /* NEW Accent Orange */
   opacity: 1;
 }
 
 .separator {
-  color: #F47B20; /* Match logo orange accent */
+  color: #F46924; /* NEW Accent Orange */
   font-weight: 700;
 }
 
